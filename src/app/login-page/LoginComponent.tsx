@@ -25,6 +25,9 @@ const LoginComponent: React.FC = () => {
                         </div>
                         <button className="w-full mb-4 py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-700"><FaGoogle className="text-white-600 text-xl inline " /> Login with Google</button>
                         <button className="w-full mb-4 py-2 px-4 bg-blue-700 text-white rounded hover:bg-blue-900"><FaGithub className="text-white-600 text-xl inline " /> Login with Github</button>
+                        <div className="mt-4 text-gray-700">
+                            Need to create an account? <a href="#" className="text-blue-600 hover:text-blue-800 font-semibold">Sign up</a>
+                        </div>
 
 
                     </div>
